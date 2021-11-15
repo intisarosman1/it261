@@ -1,0 +1,44 @@
+/* Styles for my celcius form */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+form {
+    width:400px;
+    margin:30px auto;
+}
+
+fieldset {
+    border:1px solid red;
+    padding:12px;
+}
+
+legend {
+    font-size:1.2em;
+    font-style:italic;
+    color:coral;
+}
+
+label {
+    color:#666;
+    margin-bottom:8px;
+    display:block;
+}
+
+input {
+    display:black;
+    margin-bottom:10px;
+}
+
+h2 {
+    text-align:center;
+    color:red;
+    font-style:italic;
+}
+
+p {
+    text-align:center;
+}

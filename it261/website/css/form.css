@@ -1,0 +1,29 @@
+/* Form.php styles */
+
+form {
+    width:400px;
+    margin:20px auto;
+}
+
+fieldset {
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+}
+
+label {
+    display:block;
+}
+
+.error {
+    display:block;
+    color:red;
+    margin-bottom:10px;
+    margin-top:5px;
+    font-style:italic;
+}
+
+li {
+    list-style-type: none;
+    padding:3px;
+}
