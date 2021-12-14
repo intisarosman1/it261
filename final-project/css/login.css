@@ -1,0 +1,81 @@
+/* Register/login form styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body {
+    background:rgb(245, 245, 245);
+}
+
+header {
+    overflow:hidden;
+    background:rgb(211, 211, 211);
+}
+
+
+
+
+label {
+    display:block;
+    margin-bottom:5px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:bold;
+    font-size:80%;
+}
+
+fieldset {
+    padding:10px;
+    width:70%;
+    font-family: 'Roboto Mono', monospace;
+    margin:0 auto;
+}
+
+input {
+    display:block;
+    width:85%;
+    margin-bottom:20px;
+}
+
+h1 {
+    text-align:center;
+    margin:10px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    text-align:center;
+    margin:10px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.block {
+    display:block;
+    text-align:center;
+    font-style:italic;
+    font-family:garamond;
+}
+
+
+/*#wrapper {
+    clear:both;
+    width:940px;
+    margin:0 auto;
+}*/
+
+
+form {
+    width:500px;
+    margin:0 auto;
+}
+
+.error {
+    color:rgb(231, 0, 0);
+    font-style:italic;
+    margin:10px 0;
+}
